@@ -25,7 +25,7 @@ const ListPage = () => {
   };
   const handleWrite = () => {
     setPosts([...posts, post]);
-    setNum((num) => num + 1);
+    setNum(num + 1);
     setPost({ title: "", content: "" });
   };
 
